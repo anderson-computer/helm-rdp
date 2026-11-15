@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Helm Remote Desktop
+GenericName=Remote Desktop Connection
+Comment=Connect to Windows and other RDP computers (mstsc-style)
+Exec=helm-rdp %f
+Icon=helm-rdp
+Terminal=false
+Categories=Network;RemoteAccess;Qt;
+Keywords=rdp;remote;desktop;mstsc;windows;terminal;server;freerdp;
+MimeType=application/x-rdp;
+StartupNotify=true
+StartupWMClass=helm-rdp
+X-GNOME-UsesNotifications=false
