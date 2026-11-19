@@ -11,6 +11,8 @@ opens the same five tabs as the Windows client. Sessions are drawn by
 **FreeRDP** from Rocky's own AppStream repository (FreeRDP 2.11 on Rocky 9,
 FreeRDP 3 on Rocky 10), so there is nothing extra to trust or compile.
 
+**Who it's for:** Administrators used to Windows' Remote Desktop Connection (mstsc) who want an RDP client with the same options tabs on Rocky Linux 9 and 10.
+
 The package, command and repository are named **`helm-rdp`** so they never clash
 with the Kubernetes `helm` package in EPEL.
 
@@ -151,3 +153,7 @@ QT_QPA_PLATFORM=offscreen python3 tests/smoke_offscreen.py
 ## License
 
 MIT — Copyright (c) 2026 Mike Anderson. FreeRDP is Apache-2.0 and is installed from your distribution.
+
+---
+
+**Part of the Cyber Chief toolkit** by Anderson Computer. Sibling projects: [Flagship](https://github.com/mike0615/flagship) · [Flagship Web](https://github.com/mike0615/flagship-web) · [Porthole](https://github.com/mike0615/porthole) · [Skiff](https://github.com/mike0615/skiff) · [Sonar](https://github.com/mike0615/sonar) · [Pathfinder](https://github.com/mike0615/pathfinder) · [FleetOps](https://github.com/mike0615/fleet-ops) · [Dockyard](https://github.com/mike0615/dockyard) · [CommShack](https://github.com/mike0615/commshack).
